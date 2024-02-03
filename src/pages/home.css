@@ -126,7 +126,7 @@ svg{
   }
   .social a{
     height: 55px;
-    width: 55px;
+    width: 55px;    
   }
   }
   @media screen and (max-width: 750px){
@@ -139,11 +139,14 @@ svg{
     .home .image{
         display: none;
     }
+    .home h1{
+      font-size: 1.5em;
+    }
     .social{
         position: absolute;
         display: flex;
         flex-direction: row;
-        bottom: 1em;
+        bottom: 5em;
         border-radius: 10px;
         background-color: rgba(1, 87, 44, 0.959);
       }
@@ -164,6 +167,12 @@ svg{
       .home p{
         color: rgb(1, 16, 8);
         font-weight: 400;
+        font-size: 15px;
+      }
+      .home button{
+        font-size: 17px;
+        padding: 6px 10px;
+        height: 35px;
       }
 
   }
