@@ -1,0 +1,169 @@
+
+.home button{
+    font-size: 24px;
+    color: rgba(1, 87, 44, 0.959) ;
+    background-color: rgba(4, 0, 20);
+    cursor: pointer;
+    height: 50px;
+    width: max-content;
+    border: none;
+    box-shadow: 0 0 .5em rgba(1, 87, 44, 0.959);
+    padding: 13px 17px;
+    margin: 30px 0;
+    transition: all 0.5s;
+}
+.home button:hover{
+    background-color: rgba(1, 87, 44, 0.959);
+    color: #eafbfb;
+    transition: all 0.5s;
+}
+.home .content{
+    margin: 0 10px;
+}
+.home h1{
+    font-size: 4em;
+    line-height: 1.5;
+}
+.home span{
+    color: rgba(1, 87, 44, 0.959);
+}
+.home{
+    background: linear-gradient(80deg, rgba(1, 87, 44, 0.959) 20%, rgb(4, 0, 20) 0%);
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    padding: 50px 10%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    gap: 5em;
+}
+.home .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+}
+.image img{
+    width: 450px;
+}
+.image{
+    width: fit-content;
+    height: auto;
+    background-color: rgb(4, 0, 20);
+    padding: 40px 0 0 50px;
+    border-radius: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3em;
+    padding: 10px;
+}
+.social a{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 .4em rgba(1, 87, 44, 0.959);
+}
+svg{
+    fill: rgba(255, 255, 255, 0.959);
+}
+
+.social a:hover{
+    background-color: rgba(1, 87, 44, 0.959);
+    fill: rgb(4, 0, 20);
+    transition:  0.5s;
+}
+
+
+
+
+@media screen and (max-width: 1600px){
+    
+    .home h1{
+        font-size: 3em;
+        line-height: 1.3;
+    }
+    .home{
+        padding: 50px 5%;
+    }
+    .home img{
+      width: 380px;
+    }
+  }
+  
+  
+  
+  @media screen and (min-width: 750px) and (max-width: 1200px){
+    .social{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      bottom: 4em;
+    }
+    .home h1{
+      font-size: 2.2em;
+      
+  }
+  .home{
+      padding: 50px 3%;
+      gap: 1em;
+  }
+  .home img{
+    width: 300px;
+  }
+  .home p{
+    font-size: 20px;
+  }
+  .social a{
+    height: 55px;
+    width: 55px;
+  }
+  }
+  @media screen and (max-width: 750px){
+    .home{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(172, 171, 171, 0.963)), url("../image/david.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-origin: bottom;
+    }
+    .home .image{
+        display: none;
+    }
+    .social{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        bottom: 1em;
+        border-radius: 10px;
+        background-color: rgba(1, 87, 44, 0.959);
+      }
+      .home span{
+        -webkit-text-stroke: 0.5px ;
+        -webkit-text-stroke-color: #eafbfb;
+      }
+      .social a{
+        border-radius: 0;
+        transition: all 1s;
+        height: 40px;
+        width: 40px;
+    }
+      .social a:hover{
+        background-color: #022525;
+        transition: all 1s;
+      }
+      .home p{
+        color: rgb(1, 16, 8);
+        font-weight: 400;
+      }
+
+  }

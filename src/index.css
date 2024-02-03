@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p{
+  font-size: 23px;
+  font-weight: 300;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+

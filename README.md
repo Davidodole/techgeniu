@@ -1,1 +1,1 @@
-# techgeniu
+# techgenius
