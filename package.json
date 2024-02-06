@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Davidodole.github.io/techgeniu/",
+  "homepage": "https://davidodole.github.io/techgeniu/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
